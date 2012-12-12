@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/to_douban_act"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/douban_activity" />
+
+    <Button
+        android:id="@+id/to_wuliu_act"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wuliu_activity" />
+    
+    <Button 
+        android:id="@+id/sina_place"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sina_palce"/>
+
+    <Button
+        android:id="@+id/baidu_location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/baidu_location" />
+    <Button
+        android:id="@+id/item_location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_location" />
+    
+</LinearLayout>

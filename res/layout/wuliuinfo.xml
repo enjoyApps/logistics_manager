@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_wuliu_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wuliu_user" />
+
+        <Button
+            android:id="@+id/btn_wuliu_user_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/douban_user" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_wuliu_user_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/douban_user_hint" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_fetch_wuliu_info"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wuliu_info" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <EditText
+            android:id="@+id/edt_wuliu_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/yundan_id" />
+        
+        <Button
+            android:id="@+id/btn_scan_wuliu_qrcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/scan_for_yundan" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <EditText
+            android:id="@+id/edt_company_key"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/input_key_hint" />
+
+        <Button
+            android:id="@+id/btn_company_key_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/wuliu_company" />
+        
+    </LinearLayout>
+    
+
+	<ImageView
+	    android:id="@+id/book_cover"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:contentDescription="@string/app_name" />
+
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	
+	    <TextView
+	        android:id="@+id/wuliu_info"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/txt_wuliu_info" />
+	
+	</ScrollView>
+
+</LinearLayout>
